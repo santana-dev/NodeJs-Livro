@@ -1,3 +1,57 @@
 $ npm install -g express-generator@4
 $ express ntalk
 $ npm install -g nodemon
+
+Livro - package.json
+
+{
+  "name": "ntalk",
+  "description": "Node talk - Agenda de contatos",
+  "private": false,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js"
+  },
+    "dependencies": {
+    "express": "3.4.7",
+    "ejs": "0.8.5"
+  }
+}
+
+Projeto Criado - Inicio
+
+{
+  "name": "ntalk",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
+
+{
+  "name": "ntalk",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon .app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
+
+$ npm install express-load
